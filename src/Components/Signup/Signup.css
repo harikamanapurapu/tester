@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.signup-main{
+    width: 100%;
+    height: 100vh;
+    background-color: hsla(227, 33%, 31%, 1);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.signup-headers{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 100px;
+    margin-top: 150px;
+    text-align: left;
+}
+.signup-heading{
+    font-size:50px;
+    font-family: "DM Sans";
+    color: white;
+    font-weight: 500;
+}
+.signup-para{
+    font-size: 25px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: white;
+    width: 642px ;
+    height: 33px;
+}
+.signup-form{
+    width:700px;
+    height:400px;
+    border: 2px solid white;
+    border-radius: 33px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 25px;
+}
+.name-box{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.name-logo{
+    width:27px;
+    height: 27px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.name-input{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+
+.email-box{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.email-logo{
+    width:27px;
+    height: 27px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.email-input{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+
+.mobile-box{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.mobile-logo{
+    width:27px;
+    height: 27px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.mobile-input{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+
+.password-box{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.password-logo{
+    width:27px;
+    height: 27px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+.password-input{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+.redirectLogin{
+    font-size: 20px;
+    color: hsla(0, 0%, 45%, 1) ;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.login{
+    color:hsla(227, 33%, 31%, 1);
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 20px;
+}
+.signup-btn{
+    width: 150px ;
+    height: 44px;
+    background-color: hsla(227, 33%, 31%, 1);
+    border: none;
+    border-radius: 28px;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top:30px;
+    margin-left: 480px;
+}
+
+
+@media screen and (max-width:480px) {
+    .signup-main{
+        width: 100%;
+        height: 100vh;
+        background-color: hsla(227, 33%, 31%, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .signup-headers{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 100px;
+        margin-top: 80px;
+        text-align: left;
+    }
+    .signup-heading{
+        font-size:45px;
+        font-family: "DM Sans";
+        color: white;
+        font-weight: 500;
+        height: 60px;
+    }
+    .signup-para{
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: white;
+        width: 360px ;
+        height: 33px;
+    }
+    .signup-form{
+        width:320px;
+        height:400px;
+        border: 2px solid white;
+        border-radius: 33px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        padding: 25px;
+    }
+    .name-box{
+        display: flex;
+        width: 300px;
+        height: 20px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .name-logo{
+        width:27px;
+        height: 27px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .name-input{
+        width:175px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    
+    .email-box{
+        display: flex;
+        width: 300px;
+        height: 20px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .email-logo{
+        width:27px;
+        height: 27px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .email-input{
+        width:175px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    
+    .mobile-box{
+        display: flex;
+        width: 300px;
+        height: 20px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .mobile-logo{
+        width:27px;
+        height: 27px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .mobile-input{
+        width:175px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    
+    .password-box{
+        display: flex;
+        width: 300px;
+        height: 20px;
+        margin-top: 40px;
+        margin-left: 30px;
+    
+    }
+    .password-logo{
+        width:27px;
+        height: 27px;
+        margin-right: 10px;
+        margin-top: 5px;
+    
+    }
+    .password-input{
+        width:175px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    .redirectLogin{
+        font-size: 20px;
+        color: hsla(0, 0%, 45%, 1) ;
+        font-family: DM Sans;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 40px;
+        width: 250px;
+    }
+    .login{
+        color:hsla(227, 33%, 31%, 1);
+        font-family: DM Sans;
+        font-weight: 500;
+        font-size: 20px;
+        width: 49px;
+    }
+    .signup-btn{
+        width: 195px ;
+        height: 38px;
+        background-color: hsla(227, 33%, 31%, 1);
+        border: none;
+        border-radius: 28px;
+        font-family: DM Sans;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        margin-top:30px;
+        margin-left: 80px;
+    }
+
+    
+}

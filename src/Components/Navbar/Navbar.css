@@ -1,0 +1,212 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.navbar-main{
+    width: 100%;
+    height: 100px;
+    background-color: hsla(227, 33%, 31%, 1);
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-title{
+    width: 134px;
+    height: 36px;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.navbar-loginbtn{
+    width: 86px;
+    height: 31px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    background-color:hsla(227, 33%, 31%, 1) ;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.navbar-signupbtn{
+    width: 135px;
+    height: 40px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 500;
+    background-color:hsla(227, 33%, 31%, 1) ;
+    color: white;
+    border: 1.7px solid white;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+} */
+
+
+
+@font-face {
+    font-family: DM Sans;
+    src: url('../DM_Sans\,Roboto\,Single_Day/DM_Sans/DMSans-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../DM_Sans\,Roboto\,Single_Day/Roboto/Roboto-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-main{
+    width: 100%;
+    height: 100px;
+    background-color: hsla(227, 33%, 31%, 1);
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-title{
+    width: 134px;
+    height: 36px;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.navbar-btns{
+    display: flex;
+}
+.navbar-loginbtn{
+    width: 86px;
+    height: 31px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    background-color:hsla(227, 33%, 31%, 1) ;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.navbar-hello{
+    width: 86px;
+    height: 31px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    background-color:hsla(227, 33%, 31%, 1) ;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+.navbar-signupbtn{
+    width: 135px;
+    height: 40px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 500;
+    background-color:hsla(227, 33%, 31%, 1) ;
+    color: white;
+    border: 1.7px solid white;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+.navimg{
+    width:40px ;
+    height:40px ;
+    background-color:hsla(227, 33%, 31%, 1);
+    border:none;
+    border-radius: 27px;
+    margin-right:20px;
+    margin-top: 10px;
+
+}
+
+@media screen and (max-width:480px) {
+    .navbar-main{
+        width: 480px;
+        height: 100px;
+        background-color: hsla(227, 33%, 31%, 1);
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-title{
+        width: 134px;
+        height: 36px;
+        font-family: DM Sans;
+        font-size: 28px;
+        font-weight: 700;
+        text-align: left;
+        color: white;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .navbar-btns{
+        display: flex;
+    }
+    .navbar-loginbtn{
+        width: 86px;
+        height: 31px;
+        font-family: DM Sans;
+        font-size: 21px;
+        font-weight: 500;
+        text-align: left;
+        background-color:hsla(227, 33%, 31%, 1) ;
+        color: white;
+        border: none;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .navbar-hello{
+        display: none;
+    
+    }
+    .navbar-signupbtn{
+        width: 135px;
+        height: 30px;
+        font-family: DM Sans;
+        font-size: 21px;
+        font-weight: 500;
+        background-color:hsla(227, 33%, 31%, 1) ;
+        color: white;
+        border: 1.7px solid white;
+        border-radius: 8px;
+        margin-top: 15px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .navimg{
+        width:40px ;
+        height:40px ;
+        background-color:hsla(227, 33%, 31%, 1);
+        border:none;
+        border-radius: 27px;
+        margin-right:20px;
+        margin-top: 10px;
+    
+    }
+}

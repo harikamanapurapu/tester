@@ -1,0 +1,753 @@
+@font-face {
+    font-family: DM Sans;
+    src: url('../DM_Sans\,Roboto\,Single_Day/DM_Sans/DMSans-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../DM_Sans\,Roboto\,Single_Day/Roboto/Roboto-Regular.ttf');
+}
+
+
+.product-list-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.display{
+    display: flex;
+    width:100%;
+    height: 500px;
+}
+.display-img{
+    width: 579px;
+    height: 500px;
+
+}
+.display-desc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 25px;
+}
+.display-heading{
+    width: 745.11083984375px;
+    height: 152.96978759765625px;
+    font-family: DM Sans;
+    font-size: 56px;
+    font-weight: 600;
+    text-align: left;
+    color: black;
+}
+.display-para{
+    width: 725px;
+    height: 65px;
+    font-family: DM Sans;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: left;
+    color: hsla(0, 0%, 42%, 1);
+}
+.List{
+    width: 100%;
+    display: flex;
+}
+.filter-products{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 40px;
+}
+.filter-desc{
+    width: 250px;
+    height: 155px;
+    border: none;
+    border-radius: 14px;
+    background-color: hsla(227, 33%, 31%, 1);
+    text-align: center;
+}
+.filter-heading{
+    width: 180px;
+    height: 10px;
+    font-family: DM Sans;
+    font-size: 39px;
+    font-weight: 500;
+    color: white;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.filter-para{
+    width: 125px;
+    height: 30px;
+    font-family: DM Sans;
+    font-size: 21px;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    letter-spacing: 0.02em;
+}
+.filters{
+    width: 250px;
+    height: 230px;
+    border: 2px solid white;
+    border-radius: 11.378318786621094px;
+    box-shadow: 0px 0px 17.50510597229004px 0px hsla(0, 0%, 0%, 0.15);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.companyNamefilter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.all{
+    width: 90px;
+    height: 30px;
+    border:none;
+    border-radius: 25px;
+    background-color: hsla(224, 15%, 81%, 1); 
+    font-family: DM Sans;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    padding-top: 5px ;
+    cursor: pointer;
+}
+.mappednames{
+    width: 100px;
+    height: 27px;
+    border: none;
+    border-radius: 25px;
+    background-color: hsla(224, 15%, 81%, 1);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    padding-top: 5px ;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.all.active,
+.mappednames.active{
+    background-color: hsla(227, 33%, 31%, 1);
+    color: white;
+}
+.ProductList{
+    display: flex;
+    flex-direction: column;
+}
+.details-sort{
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 3px solid hsla(227, 33%, 31%, 0.35);
+    padding: 3px;
+
+}
+.suggestions{
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    color: hsla(0, 0%, 0%, 1);
+    margin-left:40px ;
+    margin-top: 10px;
+}
+.sort{
+    display: flex;
+}
+.sortHeading{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: hsla(0, 0%, 55%, 1);
+    margin-top: 10px;
+    margin-left: 30px
+}
+.sortSelect{
+    width: 99px;
+    height: 32px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    color: black;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: none;
+}
+.addproduct{
+    width: 211px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: hsla(227, 33%, 31%, 1);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-top: 3px;
+    margin-right: 20px;
+}
+
+.Product{
+    display: flex;
+    flex-direction: column;
+}
+.details-box{
+    width: 1110px;
+    /* max-height: 461px; */
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(224, 15%, 81%, 1);
+    border:3px solid hsla(224, 15%, 81%, 1);
+    margin-top: 20px;
+    margin-left: 25px;
+    /* padding: 20px 0px; */
+}
+.logoUrl{
+    width: 76px;
+    height: 76px;
+    border: none;
+    border-radius: 49px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.category{
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 700;
+    color: hsla(227, 33%, 31%, 1);
+    margin-bottom: 10px;
+
+}
+.description{
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+    margin-bottom: 10px;
+}
+.boxes{
+    display: flex;
+    margin-top: 10px;
+}
+.company{
+    width: 110px;
+    height: 30px;
+    border: none;
+    border-radius: 20.9px;
+    background-color: hsla(227, 100%, 88%, 1);
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+}
+.commentimage{
+    margin-left: 300px;
+}
+.comment{
+    width: 126px;
+    height: 20px;
+    color:  hsla(0, 0%, 67%, 1);
+    font-family: DM Sans;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.commentsbox{
+    max-height:"304px";
+    display: flex;
+    flex-direction: column;
+}
+.commentinputCon{
+    display: flex;
+}
+.commentinput{
+    width: 1034px;
+    height: 40px;
+    border: 3px solid hsla(224, 15%, 81%, 1);
+    border-radius: 43px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 10px;
+}
+.enterBtn{
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+    margin-left:-40px ;
+}
+.commentsHolder{
+    width:1090px ;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.comUl{
+    margin-left:50px;
+}
+.comLi{
+    /* margin-top: 10px; */
+    margin-bottom: 5px;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: hsla(0, 0%, 60%, 1);
+    width: 1000px;
+}
+
+
+.edit{
+    width: 107px;
+    height: 36px;
+    border: none;
+    border-radius: 29px;
+    background-color: hsla(227, 33%, 31%, 1);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-left: 200px;
+
+}
+.filters-mobile{
+    display: none;
+}
+.sortby{
+    display: none;
+}
+.upcom{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: none;
+}
+.upvote-btn{
+    width: 46px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background: rgb(218, 219, 223);
+    margin-top: 10px;
+    /* margin-left: 50px; */
+    padding-top: 5px;
+    font-family: "DM Sans";
+    font-size: 19px;
+    font-weight: 500;
+    color: black;
+
+}
+.comments-btn{
+    font-family: "DM Sans";
+    font-size: 19px;
+    font-weight: 500;
+    color: black;
+    margin-right: 3px;
+    /* margin-left: 50px; */
+
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    .sortby{
+        display: block;
+    }
+    .product-list-main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .display{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    .display-img{
+        width: 350px;
+        height: 320px;
+        margin-left: 30px;
+    }
+    .display-desc{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+    .display-heading{
+        width: 360px;
+        height: 62px;
+        font-family: DM Sans;
+        font-size: 25px;
+        font-weight: 600;
+        text-align: left;
+        color: black;
+    }
+    .display-para{
+        width: 365px;
+        height: 65px;
+        font-family: DM Sans;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: left;
+        color: hsla(0, 0%, 42%, 1);
+        margin-top: 10px;
+    }
+    .List{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .filter-products{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 40px;
+    }
+    .filter-desc{
+        display: none;
+    }
+    .filters{
+        position: absolute;
+        top: 650px;
+        width: 400px;
+        height: 50px;
+        border: none;
+        box-shadow: none;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .filters-mobile{
+        display: block;
+        width: 50px;
+        height: 15px;
+        top: 540px;
+        left: 14px;
+        font-family: "DM Sans";
+        font-size: 22px;
+        font-weight: 400;
+        text-align: left;
+        color: hsla(0, 0%, 55%, 1);
+    }
+
+    .companyNamefilter{
+        display: flex;
+        width: 420px;
+        height: 150px;
+        margin-top: 10px;
+    }
+    .all{
+        width: 65px;
+        height: 30px;
+        border:none;
+        border-radius: 25px;
+        background-color: hsla(224, 15%, 81%, 1); 
+        font-family: DM Sans;
+        font-size: 19px;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+        padding-top: 5px ;
+        cursor: pointer;
+        margin-top: 3px;
+    }
+    .mappednames{
+        width: 90px;
+        height: 28px;
+        border: none;
+        border-radius: 25px;
+        background-color: hsla(224, 15%, 81%, 1);
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+        padding-top: 5px ;
+        margin-left: 5px;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+    .all.active,
+    .mappednames.active{
+        background-color: hsla(227, 33%, 31%, 1);
+        color: white;
+        /* width:125px;
+        height: 30px; */
+    }
+
+
+
+
+    .ProductList{
+        display: flex;
+        flex-direction: column;
+        width: 420px;
+    }
+    .details-sort{
+        position: absolute;
+        top:540px;
+        left:3px ;
+        display: flex;
+        justify-content: space-evenly;
+        width: 420px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 65px;
+        border-radius: 8px;
+        border: 3px solid hsla(227, 33%, 31%, 0.35);
+        padding: 3px;
+    
+    }
+    .suggestions{
+        font-family: DM Sans;
+        font-size: 17px;
+        font-weight: 700;
+        text-align: left;
+        color: hsla(0, 0%, 0%, 1);
+        margin-right:10px ;
+        margin-top: 7px;
+        margin-left: 0px;
+        width: 150px;
+    }
+    .sortby{
+        font-family: DM Sans;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+    }
+    .sort{
+        display: flex;
+    }
+    .sortHeading{
+        display: none;
+    }
+    .sortSelect{
+        width: 99px;
+        height: 30px;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+        color: black;
+        margin-left: 5px;
+        margin-top: 3px;
+        border: none;
+    }
+    .addproduct{
+        width: 130px;
+        height: 33px;
+        border: none;
+        border-radius: 7px;
+        background-color: hsla(227, 33%, 31%, 1);
+        font-family: DM Sans;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        margin-top: 3px;
+        margin-left: 30px;
+    }
+    
+    .Product{
+        display: flex;
+        flex-direction: column;
+    }
+    .details-box{
+        position: relative;
+        top:250px;
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        background-color: hsla(224, 15%, 81%, 1);
+        border:3px solid hsla(224, 15%, 81%, 1);
+        /* margin-top: 20px;
+        margin-left: 20px; */
+        margin: 0px 20px 20px 20px;
+        border-radius: 7px;
+        /* padding: 20px 0px; */
+    }
+    .logoUrl{
+        width: 49px;
+        height: 49px;
+        border: none;
+        border-radius: 32px;
+        margin-top: 15px;
+        margin-left: 15px;
+    } 
+    .details{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 20px;
+    
+    }
+    .category{
+        font-family: DM Sans;
+        font-size: 22px;
+        font-weight: 700;
+        color: hsla(227, 33%, 31%, 1);
+        margin-bottom: 10px;
+    
+    }
+    .description{
+        font-family: DM Sans;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .boxes{
+        display: flex;
+        margin-top: 10px;
+    }
+    .company{
+        width: 80px;
+        height: 25px;
+        border: none;
+        border-radius: 20.9px;
+        background-color: hsla(227, 100%, 88%, 1);
+        font-family: DM Sans;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+        padding-top: 5px;
+    }
+    .commentimage{
+        margin-left: 100px;
+        margin-top: 5px;
+        width: 23px ;
+        height: 23px;
+    }
+    .comment{
+        /* width: 126px;
+        height: 20px;
+        color:  hsla(0, 0%, 67%, 1);
+        font-family: DM Sans;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 5px;
+        margin-top: 10px; */
+        display: none;
+    }
+    .edit{
+        width: 80px;
+        height: 30px;
+        border: none;
+        border-radius: 29px;
+        background-color: hsla(227, 33%, 31%, 1);
+        font-family: DM Sans;
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        margin-left: 15px;
+    
+    }
+    /* .commentimage{
+        margin-left: 300px;
+    } */
+    .comment{
+        width: 126px;
+        height: 20px;
+        color:  hsla(0, 0%, 67%, 1);
+        font-family: DM Sans;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .commentsbox{
+        max-height:"304px";
+        display: flex;
+        flex-direction: column;
+    }
+    .commentinputCon{
+        display: flex;
+    }
+    .commentinput{
+        width: 350px;
+        height: 40px;
+        border: 3px solid hsla(224, 15%, 81%, 1);
+        border-radius: 43px;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .enterBtn{
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: white;
+        margin-top: 20px;
+        margin-left:-40px ;
+    }
+    .commentsHolder{
+        width:370px ;
+        height: 200px;
+        overflow-y: scroll;
+    }
+    
+    .comUl{
+        margin-left:25px;
+    }
+    .comLi{
+        /* margin-top: 10px; */
+        margin-bottom: 5px;
+        font-family: "DM Sans";
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        color: hsla(0, 0%, 60%, 1);
+        width: 360px;
+    }
+    
+}

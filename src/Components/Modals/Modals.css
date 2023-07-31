@@ -1,0 +1,972 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.signup-main-modal{
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    width: 1124.5px;
+    height: 689px;
+    display: flex;
+    
+}
+.signup-form-modal{
+    width:633px;
+    height:627px;
+    /* border: 2px solid white;
+    border-radius: 33px; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 0.98px solid hsla(0, 0%, 67%, 1)
+}
+.signup-modal{
+    width: 357px;
+    height: 51px;
+    font-family: DM Sans;
+    font-size: 39px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.name-box-modal{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.name-logo-modal{
+    width:27px;
+    height: 27px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.name-input-modal{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+
+.email-box-signup-modal{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.email-logo-modal{
+    width:27px;
+    height: 27px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.email-input-modal{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+
+.mobile-box-modal{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.mobile-logo-modal{
+    width:27px;
+    height: 27px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.mobile-input-modal{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+
+.password-box-signup-modal{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.password-logo-modal{
+    width:27px;
+    height: 27px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+.password-input-modal{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+.redirectLogin-modal{
+    font-size: 20px;
+    color: hsla(0, 0%, 45%, 1) ;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+.modallogin{
+    color:hsla(227, 33%, 31%, 1);
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.signup-btn-modal{
+    width: 150px ;
+    height: 44px;
+    background-color: hsla(227, 33%, 31%, 1);
+    border: none;
+    border-radius: 28px;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top:30px;
+    margin-left: 32px;
+}
+.signupmodal-sidebar{
+    width: 491px;
+    height:689px ;
+    background-color: hsla(227, 33%, 31%, 1) ;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.signupmodal-heading{
+    font-size:50px;
+    font-family: "DM Sans";
+    color: white;
+    font-weight: 500;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.signupmodal-para{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 230px;
+    height: 363px;
+}
+
+
+
+
+
+
+
+
+.login-main-modal{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    width: 1124.5px;
+    height: 689px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.login-form-modal{
+    width:633px;
+    height:627px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid hsla(0, 0%, 67%, 1)
+}
+.login-modal{
+    width: 357px;
+    height: 51px;
+    font-family: DM Sans;
+    font-size: 39px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.email-box-modal{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.email-logo-modal{
+    width:27px;
+    height: 27px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.email-input-modal{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+.password-box-modal{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+
+}
+.password-logo-modal{
+    width:27px;
+    height: 27px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+.password-input-modal{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+.redirectSignup-modal{
+    font-size: 20px;
+    color: hsla(0, 0%, 45%, 1) ;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.modalsignUp{
+    color:hsla(227, 33%, 31%, 1);
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 20px;
+}
+.login-btn-modal{
+    width: 150px ;
+    height: 44px;
+    background-color: hsla(227, 33%, 31%, 1);
+    border: none;
+    border-radius: 28px;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top:50px;
+    margin-left: 25px;
+}
+.loginmodal-sidebar{
+    width: 491px;
+    height:678px ;
+    background-color: hsla(227, 33%, 31%, 1) ;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.loginmodal-heading{
+    font-size:50px;
+    font-family: "DM Sans";
+    color: white;
+    font-weight: 500;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.loginmodal-para{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 230px;
+    height: 363px;
+}
+
+
+
+
+.addproduct-main-modal{
+    position: absolute;
+    width: 1124.5px;
+    height: 689px;
+    display: flex;
+    top: 150px;
+    left: 250px;
+    margin-bottom: 100px;
+    
+
+}
+.addproduct-form-modal{
+    width:633px;
+    height:627px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 0.98px solid hsla(0, 0%, 67%, 1)
+
+}
+.addproduct-modal{
+    width: 357px;
+    height: 51px;
+    font-family: DM Sans;
+    font-size: 39px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.Company-modal{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.company-input-modal{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+
+.Category-modal{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.category-input-modal{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+
+.logo-modal{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.logo-input-modal{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+
+.productLink-modal{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.productLink-input-modal{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+.description-modal{
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.description-input-modal{
+    width:574px ;
+    height: 22px;
+    font-size: 20px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: hsla(0, 0%, 45%, 1);
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+}
+
+.addproduct-btn-modal{
+    width: 150px ;
+    height: 44px;
+    background-color: hsla(227, 33%, 31%, 1);
+    border: none;
+    border-radius: 28px;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top:30px;
+    margin-left: 32px;
+}
+.addproductmodal-sidebar{
+    width: 491px;
+    height:689px ;
+    background-color: hsla(227, 33%, 31%, 1) ;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.addproductmodal-heading{
+    font-size:50px;
+    font-family: "DM Sans";
+    color: white;
+    font-weight: 500;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.addproductmodal-para{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 230px;
+    height: 363px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    .signup-main-modal{
+        position: absolute;
+        top: 150px;
+        left: 40px;
+        width: 360px;
+        height: 450px;
+        display: flex;
+        
+    }
+    .signup-form-modal{
+        width:360px;
+        height:450px;
+        border: 2px solid white;
+        border-radius: 33px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        
+    }
+    .signup-modal{
+        display: none;
+    }
+    .name-box-modal{
+        display: flex;
+        width: 320px;
+        height: 20px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .name-logo-modal{
+        width:27px;
+        height: 27px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .name-input-modal{
+        width:250px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    
+    .email-box-signup-modal{
+        display: flex;
+        width: 320px;
+        height: 20px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .email-logo-modal{
+        width:27px;
+        height: 27px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .email-input-modal{
+        width:250px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    
+    .mobile-box-modal{
+        display: flex;
+        width: 320px;
+        height: 20px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .mobile-logo-modal{
+        width:27px;
+        height: 27px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .mobile-input-modal{
+        width:250px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    
+    .password-box-signup-modal{
+        display: flex;
+        width: 320px;
+        height: 20px;
+        margin-top: 50px;
+        margin-left: 20px;
+    
+    }
+    .password-logo-modal{
+        width:27px;
+        height: 27px;
+        margin-right: 10px;
+        margin-top: 5px;
+    
+    }
+    .password-input-modal{
+        width:250px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    .redirectLogin-modal{
+        font-size: 19px;
+        color: hsla(0, 0%, 45%, 1) ;
+        font-family: DM Sans;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 40px;
+        margin-left: 35px;
+        width: 230px;
+    }
+    .modallogin{
+        color:hsla(227, 33%, 31%, 1);
+        font-family: DM Sans;
+        font-weight: 500;
+        font-size: 20px;
+        width: 49px;
+        text-decoration:underline ;
+    }
+    .signup-btn-modal{
+        width: 230px ;
+        height: 50px;
+        background-color: hsla(227, 33%, 31%, 1);
+        border: none;
+        border-radius: 28px;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        margin-top:15px;
+        margin-left: 42px;
+    }
+    .signupmodal-sidebar{
+        display: none;
+    }
+
+
+
+
+
+
+
+    .login-main-modal{
+        width: 0px;
+        height: 0px;
+        display: flex;
+        background-color: black;
+    }
+    
+    .login-form-modal{
+        position: absolute;
+        top: 50px;
+        left: -225px;
+        width:360px;
+        height:400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        border: 2px solid white;
+        border-radius: 27px;
+    }
+    .login-modal{
+        display: none;
+    }
+    .email-box-modal{
+        display: flex;
+        width: 320px;
+        height: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .email-logo-modal{
+        width:27px;
+        height: 27px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .email-input-modal{
+        width:250px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    .password-box-modal{
+        display: flex;
+        width: 320px;
+        height: 20px;
+        margin-top: 50px;
+        margin-left: 20px;
+    
+    }
+    .password-logo-modal{
+        width:27px;
+        height: 27px;
+        margin-right: 10px;
+        margin-top: 5px;
+    
+    }
+    .password-input-modal{
+        width:250px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    .redirectSignup-modal{
+        font-size: 20px;
+        color: hsla(0, 0%, 45%, 1) ;
+        font-family: DM Sans;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+    .modalsignUp{
+        color:hsla(227, 33%, 31%, 1);
+        font-family: DM Sans;
+        font-weight: 500;
+        font-size: 20px;
+    } 
+    .login-btn-modal{
+        width: 250px ;
+        height: 44px;
+        background-color: hsla(227, 33%, 31%, 1);
+        border: none;
+        border-radius: 28px;
+        font-family: DM Sans;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        margin-top:50px;
+        margin-left: 25px;
+    }
+    .loginmodal-sidebar{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+    .addproduct-main-modal{
+        /* position: absolute;
+        top: 100px;
+        left: 200px; */
+        width: 0px;
+        height: 0px;
+        display: flex;
+        margin-bottom: 0px;
+        background-color: black; 
+        
+    
+    }
+    .addproduct-form-modal{
+        position: absolute;
+        top: -20px;
+        left: -220px;
+        width:360px;
+        height:400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        border: 2px solid white;
+    
+    }
+    .addproduct-modal{
+        width: 250px;
+        height: 51px;
+        font-family: DM Sans;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: left;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .Company-modal{
+        display: flex;
+        width: 320px;
+        height: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .company-input-modal{
+        width:250px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    
+    .Category-modal{
+        display: flex;
+        width: 320px;
+        height: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .category-input-modal{
+        width:250px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    
+    .logo-modal{
+        display: flex;
+        width: 320px;
+        height: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .logo-input-modal{
+        width:250px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    
+    .productLink-modal{
+        display: flex;
+        width: 320px;
+        height: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    
+    }
+    .productLink-input-modal{
+        width:250px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    .description-modal{
+        display: flex;
+        width: 320px;
+        height: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    
+    }
+    .description-input-modal{
+        width:250px ;
+        height: 22px;
+        font-size: 20px;
+        font-family: "DM Sans";
+        font-weight: 500;
+        color: hsla(0, 0%, 45%, 1);
+        padding: 5px;
+        border: none;
+        border-bottom: 2px solid hsla(0, 0%, 67%, 1); 
+    }
+    
+    .addproduct-btn-modal{
+        width: 210px ;
+        height: 44px;
+        background-color: hsla(227, 33%, 31%, 1);
+        border: none;
+        border-radius: 28px;
+        font-family: DM Sans;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        margin-top:30px;
+        margin-left: 32px;
+    }
+    .addproductmodal-sidebar{
+        display: none;
+    }
+    
+}
+
